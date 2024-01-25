@@ -9,7 +9,7 @@ header {
 }
 
 header div {
-  width: 10%;
+  width: 3%;
 }
 
 .header-logo {
@@ -20,13 +20,18 @@ header div {
   padding: 0 2% 0 1%;
 }
 
-.shop-user{
+.shop-user {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding-right: 5%;
 }
 
-.shop-user:first-child {
-  background-color: red !important;
-  width: 100px !important;
+.shop-user div:first-child {
+    color: red;
+}
+
+.shop-user div:last-child {
+
 }

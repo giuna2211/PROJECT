@@ -27,8 +27,7 @@ export default function Header() {
       />
       <div className="shop-user">
         <div> <i className="fa-solid fa-cart-shopping"></i></div>
-       <div> <i className="fa-solid fa-user"></i></div>
-       
+        <div> <i className="fa-solid fa-user"></i></div>
       </div>
     </header>
   );
