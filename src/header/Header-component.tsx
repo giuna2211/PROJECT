@@ -1,12 +1,13 @@
 import { useState } from "react";
 import HeaderNavigators from "./Header-navigators-component";
+import headerlogo from '../assets/frame.svg'
 
 export default function Header() {
   const [activePage, setActoinActivePage] = useState(1);
   return (
     <header>
       <a href="" className="header-logo">
-        <img src="" />
+        <img src={headerlogo} alt="" />
         <span>name</span>
       </a>
       <HeaderNavigators
