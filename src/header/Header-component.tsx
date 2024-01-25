@@ -6,6 +6,7 @@ export default function Header() {
   const [activePage, setActoinActivePage] = useState(1);
   return (
     <header>
+      
       <a href="" className="header-logo">
         <img src={headerlogo} alt="" />
         <span>name</span>
