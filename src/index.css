@@ -2,11 +2,11 @@
     background: red;
 }
 
-.DIV{
+header{
     display: flex;
 width: 100%;
 }
 
-.DIV div{
+header div{
 width: 30%;
 }
