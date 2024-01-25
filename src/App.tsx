@@ -1,11 +1,11 @@
-
-import Header from './header/Header-component';
+import Header from "./header/Header-component";
 
 function App() {
-  return(
-    <Header/>
-  )
- 
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
-export default App
+export default App;
