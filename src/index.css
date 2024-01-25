@@ -1,0 +1,12 @@
+.active{
+    background: red;
+}
+
+.DIV{
+    display: flex;
+width: 100%;
+}
+
+.DIV div{
+width: 30%;
+}
