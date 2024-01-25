@@ -35,3 +35,13 @@ header div {
 .shop-user div:last-child {
 
 }
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+nav div{
+  padding: 5% 30%;
+}

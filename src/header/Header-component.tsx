@@ -10,24 +10,30 @@ export default function Header() {
         <img src={headerlogo} alt="" />
         <span>name</span>
       </a>
-      <HeaderNavigators
-        content="ლეპტოპები"
-        activePage={activePage}
-        setActoinActivePage={setActoinActivePage}
-      />
-      <HeaderNavigators
-        content="პლანშეტები"
-        activePage={activePage}
-        setActoinActivePage={setActoinActivePage}
-      />
-      <HeaderNavigators
-        content="აქსესუარები"
-        activePage={activePage}
-        setActoinActivePage={setActoinActivePage}
-      />
+      <nav>
+        <HeaderNavigators
+          content="ლეპტოპები"
+          activePage={activePage}
+          setActoinActivePage={setActoinActivePage}
+        />
+        <HeaderNavigators
+          content="პლანშეტები"
+          activePage={activePage}
+          setActoinActivePage={setActoinActivePage}
+        />
+        <HeaderNavigators
+          content="აქსესუარები"
+          activePage={activePage}
+          setActoinActivePage={setActoinActivePage}
+        />
+      </nav>
       <div className="shop-user">
-        <div> <i className="fa-solid fa-cart-shopping"></i></div>
-        <div> <i className="fa-solid fa-user"></i></div>
+        <div>
+          <i className="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div>
+          <i className="fa-solid fa-user"></i>
+        </div>
       </div>
     </header>
   );
