@@ -5,8 +5,8 @@ import headerlogo from "../assets/frame.svg";
 export default function Header() {
   const [activePage, setActoinActivePage] = useState(1);
   return (
-    <header>
-      
+<>
+ <header>
       <a href="" className="header-logo">
         <img src={headerlogo} alt="" />
         <span>name</span>
@@ -37,5 +37,7 @@ export default function Header() {
         </div>
       </div>
     </header>
+</>
+  
   );
 }
